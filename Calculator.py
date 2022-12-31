@@ -39,7 +39,4 @@ class Calculator:
         print(f'Your result is {self.result}')
 
 
-# change made again
 
-calculator = Calculator()
-calculator.interface_prompt()
