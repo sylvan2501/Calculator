@@ -12,4 +12,7 @@ class Coordinator:
     def __repr__(self):
         return f"X: {self.x}, Y: {self.y}"
 
+    def __call__(self, *args, **kwargs):
+        print('I was called')
+
 
