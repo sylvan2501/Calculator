@@ -1,4 +1,3 @@
-from projectGit.Calculator import Calculator
-
-calculator = Calculator()
+import projectGit
+calculator = projectGit.Calculator()
 calculator.interface_prompt()
