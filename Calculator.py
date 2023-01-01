@@ -5,6 +5,9 @@ class Calculator:
         self.second_num = None
         self.result = None
 
+    def __del__(self):
+        print('The object is deconstructed.')
+
     def set_operator(self, operator):
         self.operator = operator
 
